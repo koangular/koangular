@@ -1,6 +1,6 @@
 {
   "name": "@amitport/koangular",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "prepublish": "rmdir lib /S /Q & babel src --out-dir lib"
   },
@@ -8,7 +8,9 @@
     "name": "Amit Portnoy",
     "email": "amit.portnoy@gmail.com"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
   "repository": {
     "type": "git",
